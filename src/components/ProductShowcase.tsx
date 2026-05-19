@@ -46,6 +46,7 @@ export function ProductShowcase({ onReserveProduct }: ProductShowcaseProps) {
                     alt={product.imageAlt}
                     className="h-full w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105"
                     loading="lazy"
+                    decoding="async"
                     width={400}
                     height={300}
                   />

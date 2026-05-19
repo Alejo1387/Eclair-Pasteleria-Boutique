@@ -40,7 +40,7 @@ export function Navbar({ onReserveClick }: NavbarProps) {
       }`}
     >
       <nav
-        className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8"
+        className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 md:px-8 md:py-4"
         aria-label="Principal"
       >
         <a
@@ -51,9 +51,9 @@ export function Navbar({ onReserveClick }: NavbarProps) {
           <img
             src="/logo-eclair.png"
             alt="Éclair • Pastelería Boutique"
-            className="h-10 w-auto object-contain md:h-12"
-            width={120}
-            height={48}
+            className="h-14 w-auto max-w-[200px] object-contain drop-shadow-sm md:h-16 md:max-w-[240px]"
+            width={240}
+            height={64}
           />
         </a>
 

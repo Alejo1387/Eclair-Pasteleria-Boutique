@@ -59,9 +59,9 @@ export function Footer() {
             <img
               src="/logo-eclair.png"
               alt="Éclair"
-              className="h-12 w-auto brightness-0 invert"
-              width={120}
-              height={48}
+              className="h-16 w-auto max-w-[220px] object-contain brightness-0 invert md:h-20"
+              width={220}
+              height={80}
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-pearl/70">
               Atelier de pastelería fina en el corazón de la ciudad. Cada éclair, una pieza de
